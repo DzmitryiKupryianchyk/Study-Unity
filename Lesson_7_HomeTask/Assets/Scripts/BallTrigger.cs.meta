@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f25cf2f02b484a34486b7a5cbba719cd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spookyVoice: {fileID: 6212249056634374674, guid: a002582336f27ee4cbac9307c07c1fd7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
