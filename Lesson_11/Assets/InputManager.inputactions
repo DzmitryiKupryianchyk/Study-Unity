@@ -1,0 +1,34 @@
+{
+    "name": "InputManager",
+    "maps": [
+        {
+            "name": "MyMap",
+            "id": "f6e3d237-bacd-4a76-b508-464d55167202",
+            "actions": [
+                {
+                    "name": "Creation",
+                    "type": "Button",
+                    "id": "948a7f75-acbb-4e30-8b69-77e8e298da4e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "174e8de0-e35f-4b8e-af3b-28e5402c0a3d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Creation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
