@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 298d8331ae53d8a48aa6dea89ecc178f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ordinaryShellsStend: {fileID: 8458802982688566294, guid: be0edf0dca2c31d42ab3b17b066dde88, type: 3}
+  - bombShellsStend: {fileID: 5992226844552599219, guid: 70fd9b06f012701439a5c820ed311ced, type: 3}
+  - ballShellsStend: {fileID: 2100690255658969982, guid: cf380752c4552a44598d304b4967babe, type: 3}
+  - aim: {instanceID: 0}
+  - clip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
