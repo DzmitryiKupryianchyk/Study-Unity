@@ -1,0 +1,34 @@
+{
+    "name": "CharacterContr",
+    "maps": [
+        {
+            "name": "CharacterMap",
+            "id": "a769c16b-dec7-42d8-a8e6-cb6cce45ea13",
+            "actions": [
+                {
+                    "name": "SetDestination",
+                    "type": "Button",
+                    "id": "ae391cf9-f84c-4c95-a6cb-acc73e55d940",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "548cab52-bf03-40f3-b5be-665111f00536",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SetDestination",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
