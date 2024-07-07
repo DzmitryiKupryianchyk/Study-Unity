@@ -61,10 +61,13 @@ public class PlayerControll : MonoBehaviour
     void Update()
     {
         Vector2 direction = inputManager.CharacterMap.Motion.ReadValue<Vector2>().normalized;
-        Move(direction);
+        if (CharacterController != null)
+        {
+            Move(direction);
+        }
         Rotation();
         
-        if (!CharacterController.isGrounded)
+        if (CharacterController != null && !CharacterController.isGrounded)
         {
             velocityY += gravity * Time.deltaTime;
         }
@@ -98,6 +101,7 @@ public class PlayerControll : MonoBehaviour
             foreach (var body in bodies) 
             { 
                 body.isKinematic = false;
+                Destroy(CharacterController);
             }
         }
     }
