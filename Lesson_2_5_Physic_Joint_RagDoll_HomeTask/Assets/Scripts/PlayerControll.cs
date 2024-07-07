@@ -100,9 +100,9 @@ public class PlayerControll : MonoBehaviour
             inputManager.Disable();
             foreach (var body in bodies) 
             { 
-                body.isKinematic = false;
-                Destroy(CharacterController);
+                body.isKinematic = false; 
             }
+            Destroy(CharacterController);
         }
     }
 
