@@ -1,0 +1,34 @@
+{
+    "name": "ActionControll",
+    "maps": [
+        {
+            "name": "MyAction",
+            "id": "79944990-4875-42ae-8ff2-6bb14085715b",
+            "actions": [
+                {
+                    "name": "MeshAction",
+                    "type": "Button",
+                    "id": "54fd1007-2de8-4c55-ae24-640571bfcf58",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b3951c3c-f49c-4c99-ad0c-9a04ffba4862",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MeshAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
